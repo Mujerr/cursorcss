@@ -1,0 +1,26 @@
+body {
+    background-image: url(fondo.jpg);
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+table, th, td {
+    background-color: #0DB4F1;
+    border: 2px solid black;
+    text-align: center;
+    padding: 15px;
+    margin-left: 540px;
+}
+
+td {
+    cursor: pointer;   
+}
+
+td:hover {
+    background-color: grey;
+    color: white;
+}
